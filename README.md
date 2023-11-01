@@ -9,17 +9,14 @@ Example
 ```python
 
 class Grandparent:
-    # Base class
     def method1(self):
         pass
 
 class Parent(Grandparent):
-    # Derived from Grandparent
     def method2(self):
         pass
 
 class Child(Parent):
-    # Derived from Parent
     def method3(self):
         pass
 
@@ -33,10 +30,9 @@ Example
 ```python
 
 class A:
-    # Base class
 
 class B(A):
-    # Derived from A (Single Inheritance)
+    
 
 class C(A):
     # Derived from A (Single Inheritance)
@@ -55,19 +51,19 @@ Example
 ```python
 
 class Animal:
-    # Base class
+
     def speak(self):
         pass
 
 class Dog(Animal):
-    # Derived from Animal
+    
     def speak(self):
-        print("Woof!")
+        print("Woof")
 
 class Cat(Animal):
-    # Derived from Animal
+    
     def speak(self):
-        print("Meow!")
-        
+        print("Meow")
+
 ```
 </pre>
