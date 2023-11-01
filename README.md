@@ -35,10 +35,8 @@ class B(A):
     
 
 class C(A):
-    # Derived from A (Single Inheritance)
 
 class D(B, C):
-    # Derived from both B and C (Multiple Inheritance)
 
 ```
 </pre>
